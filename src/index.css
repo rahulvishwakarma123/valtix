@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+
+
+:root {
+  --bg: #f5f7fa; /* soft bluish white */
+  --text: #1a202c; /* slate/dark gray-blue */
+  --box-gradient: linear-gradient(135deg, #d0eaff, #a3bffa, transparent); /* bluish */
+  
+  /* Button Light */
+  --btn-bg: #4c6ef5;
+  --btn-text: #ffffff;
+  --border-color: #4c6ef5;
+  --btn-hover-bg: #3b5bdb;
+  --btn-hover-text: #e0e7ff;
+  --user-bg-sidebar: radial-gradient(63.89% 57.63% at 36.8% 29.66%, #0a3494 0, #021136 100%);
+  --user-active-link: #018DF3;
+  --user-main-bg: #030d43;
+}
+
+.dark {
+  --bg: #0a0a0a;
+  --text: #dffcfb;
+  --box-gradient: linear-gradient(160deg, #00f0ff,#ffffff0a, #ffffff0a, transparent); /* futuristic bluish */
+
+  /* Button Dark */
+  --btn-bg: #050505;
+  --btn-text: #00fff7;
+  --border-color: #00fff7;
+  --btn-hover-bg: #00fff7;
+  --btn-hover-text: #0a0a0a;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.bg-user-sidebar {
+  background: var(--user-bg-sidebar);
+}
+
+.user-active-link {
+  background-color: var(--user-active-link);
+}
+
+.user-main-bg {
+  background-color: var(--user-main-bg);
+}
+
+.reusable-box {
+    border-radius: 23px;
+    background: var(--box-gradient);
+    box-shadow: #1a1919 0 8px 12px;
+}
+
+.main-bg-image {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.main-bg-image::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: var(--bg-image-url);
+  background-size: cover;
+  background-position: center;
+  filter: blur(12px) brightness(0.6);
+  z-index: -1;
+  transform: scale(1.1);
+}
+
+@layer utilities {
+  .remove-arrows::-webkit-outer-spin-button,
+  .remove-arrows::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .remove-arrows {
+    -moz-appearance: textfield; /* Firefox */
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin 15s linear infinite;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.new-landing-features-shadow {
+    box-shadow: inset 0 0 10px 0 rgba(33, 110, 255, .7), inset 0 0 60px 0 rgba(33, 110, 255, .3);
+}
+
+.new-landing-results-bg {
+    background: linear-gradient(180deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .05));
+    box-shadow: 0 20px 50px 0 rgba(2, 2, 2, .4);
+    -webkit-backdrop-filter: blur(100px);
+    backdrop-filter: blur(100px);
+}
+
+.new-landing-contracts-bg {
+    background: rgba(255, 255, 255, .01);
+    box-shadow: 0 20px 50px 0 rgba(2, 2, 2, .4);
+    -webkit-backdrop-filter: blur(25px);
+    backdrop-filter: blur(25px);
+}
+
+.new-landing-blue-shadow {
+    box-shadow: inset 0 0 12px 0 rgba(255, 255, 255, .35), inset 0 0 4px 0 rgba(255, 255, 255, .35);
+}
+
+.custom-transition {
+    transition: all .2s 
+ease-out;
+}
