@@ -26,7 +26,7 @@ const StatCard = ({
       className="relative cursor-pointer rounded-3xl p-7 overflow-hidden group transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl"
       onClick={handleNavigate}
       style={{
-        background: 'linear-gradient(135deg, rgba(255,255,255,0.25) 0%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.1) 100%)',
+        background: 'linear-gradient(135deg, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.05) 50%, rgba(255,255,255,0.01) 100%)',
         // backdropFilter: 'blur(0px)',
         border: '1px solid rgba(255,255,255,0.3)',
         boxShadow: `
@@ -78,8 +78,8 @@ const StatCard = ({
           <div 
             className="relative w-18 h-18 flex items-center justify-center rounded-2xl transition-all duration-400 group-hover:scale-110 group-hover:rotate-6"
             style={{
-              background: 'linear-gradient(135deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.15) 100%)',
-              border: '1.5px solid rgba(255,255,255,0.4)',
+              background: 'linear-gradient(135deg, rgba(255,255,255,0.01) 0%, rgba(255,255,255,0.05) 100%)',
+              border: '1.5px solid rgba(255,255,255,0.2)',
               boxShadow: `
                 0 8px 25px 0 rgba(255,255,255,0.2),
                 inset 0 2px 4px rgba(255,255,255,0.3),
@@ -88,7 +88,8 @@ const StatCard = ({
             }}
           >
             {/* Icon Highlight */}
-            <div className="absolute top-1 left-1 w-4 h-4 rounded-full bg-white/40 blur-sm"></div>
+            {/* <div className="absolute top-1 left-1 w-4 h-4 rounded-full bg-white/40 blur-sm">
+            </div> */}
             
             <img
               src={iconImage}
@@ -113,15 +114,12 @@ const StatCard = ({
             }}
           >
             {/* Icon Highlight */}
-            <div className="absolute top-1 left-1 w-4 h-4 rounded-full bg-white/40 blur-sm"></div>
+            {/* <div className="absolute top-1 left-1 w-4 h-4 rounded-full bg-white/20 blur-sm"></div> */}
             
             <img 
               src={icon} 
               className="w-9 h-9 object-contain relative z-10 transition-all duration-400 group-hover:scale-110" 
               alt=""
-              // style={{
-              //   filter: 'brightness(0) invert(1) drop-shadow(0 4px 8px rgba(0,0,0,0.3))'
-              // }}
             />
           </div>
         )}
