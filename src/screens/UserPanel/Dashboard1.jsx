@@ -22,10 +22,10 @@ import UserActivityProgress from "../../components/Screen/UserPanel/UserActivity
 
 const Dashboard1 = () => {
   const [transactionHistory, setTransactionHistory] = useState(null);
-  const role = useSelector((state) => state?.isLoggedUser?.role);
+  // const role = useSelector((state) => state?.isLoggedUser?.role);
   const access = localStorage.getItem("access");
   console.log(access, "access");
-  // const role = "USER";
+  const role = "ADMIN";
 
   const navigate = useNavigate();
   const dispatch = useDispatch();
