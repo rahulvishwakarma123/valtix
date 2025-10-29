@@ -4,7 +4,7 @@ const techItems = [
   {
     title: 'Autonomy',
     content:
-      'The Yumeko AI ecosystem is built around the technology of smart contracts and NFTs, which are completely autonomous and exclude the influence of the human factor.',
+      'The Valtix AI ecosystem is built around the technology of smart contracts and NFTs, which are completely autonomous and exclude the influence of the human factor.',
     icon: '🤖',
     color: 'from-blue-500 to-cyan-500'
   },
@@ -25,7 +25,7 @@ const techItems = [
   {
     title: 'Full automation',
     content:
-      'All processes in the Yumeko AI ecosystem are automated through smart contracts, eliminating the need for manual intervention and ensuring 24/7 operation.',
+      'All processes in the Valtix AI ecosystem are automated through smart contracts, eliminating the need for manual intervention and ensuring 24/7 operation.',
     icon: '⚡',
     color: 'from-yellow-500 to-orange-500'
   },

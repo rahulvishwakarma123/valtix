@@ -186,7 +186,7 @@ const Hero = () => {
               <span className="block text-white mt-4">
                 of Your Wealth with{" "}
                 <span className="relative inline-block">
-                  <span className="text-gradient glow-text">Yumeko AI</span>
+                  <span className="text-gradient glow-text">Valtix AI</span>
                   <span className="absolute -inset-2 bg-yellow-500/20 blur-xl rounded-full -z-10" />
                 </span>
               </span>
@@ -364,7 +364,7 @@ const Hero = () => {
               />
               <text fontSize="6" fill="#FFEE2D" opacity="0.8">
                 <textPath href="#circlePath" startOffset="0%">
-                  YUMEKO AI • DECENTRALIZED • YUMEKO AI • DECENTRALIZED •
+                  VALTIX • DECENTRALIZED • VALTIX • DECENTRALIZED •
                 </textPath>
               </text>
               <defs>

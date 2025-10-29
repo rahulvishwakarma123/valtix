@@ -1,6 +1,8 @@
 // src/components/Header.jsx
 import React from "react";
-import appLogo from "../../assets/appLogo.png"
+// import appLogo from "../../assets/appLogo.png"
+import appLogo from "../../assets/1.png"
+
 import { useNavigate } from "react-router-dom";
 import { LandingRouters } from "../../constants/routes";
 
@@ -10,7 +12,7 @@ const Header1 = () => {
     <>
       {/* Mobile Header */}
       <header className="flex lg:hidden fixed top-0 left-0 py-2 right-0 z-50 bg-[rgba(12,12,12,0.50)] backdrop-blur-[15px] h-24 items-center justify-between px-4 border-b border-white/10">
-        <div className="flex items-center space-x-3">
+        <div className="flex items-center space-x-4">
           {/* Logo Icon */}
           {/* <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -91,7 +93,7 @@ const Header1 = () => {
                 ></path>
               </svg>
             </div> */}
-            <img src={appLogo} className="h-16 cursor-pointer" alt="" onClick={() => navigate(LandingRouters.DASHBOARD)} />
+            <img src={appLogo} className="h-20 cursor-pointer" alt="" onClick={() => navigate(LandingRouters.DASHBOARD)} />
           </div>
         </div>
 

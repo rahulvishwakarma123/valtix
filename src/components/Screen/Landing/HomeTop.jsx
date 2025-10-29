@@ -10,7 +10,7 @@ const HomeTop = () => {
     <div className="flex flex-col items-center space-y-[50px] mt-[50px]">
       {/* Title */}
       <p className="text-[var(--text)] font-bold text-2xl md:text-5xl text-center pb-4">
-        YUMEKO-AI BLOCKCHAIN EXPLORER
+        VALTIX BLOCKCHAIN EXPLORER
       </p>
 
       {/* Top Stats & Search */}

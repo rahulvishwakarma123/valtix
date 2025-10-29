@@ -143,7 +143,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Yumeko ETF
+              Valtix ETF
             </a>
             <a
               className="block text-gray-400 hover:text-white transition my-2"
@@ -151,7 +151,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Yumeko Architecture
+              Valtix Architecture
             </a>
             <a
               className="block text-gray-400 hover:text-white transition my-2"
@@ -159,7 +159,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Yumeko Whitepaper
+              Valtix Whitepaper
             </a>
           </div>
 

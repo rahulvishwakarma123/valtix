@@ -125,10 +125,10 @@ const Sidebar = ({ isOpen, onClose }) => {
           }}
           className="logo flex items-center gap-3 cursor-pointer"
         >
-          <img src={MainContent.appLogo} alt="app Logo" className="h-8" />
+          <img src={MainContent.appLogo} alt="app Logo" className="h-10" />
           <span className="text-xl font-bold text-white">
             {/* {MainContent.appName} */}
-            YumekoAi
+            Valtix
           </span>
         </div>
         <button

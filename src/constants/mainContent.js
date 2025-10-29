@@ -1,13 +1,13 @@
 import axios from "axios";
 import store from "../redux/store";
-import appLogo from "../assets/appLogo.png";
-import appFavicon from "../assets/appFavicon.png";
+import appLogo from "../assets/1.png";
+import appFavicon from "../assets/2.png";
 
 export const MainContent = {
   name: "SL BALA",
   appLogo: appLogo,
   favIcon: appFavicon,
-  appName: "Yumeko - AI"
+  appName: "Valtix"
 };
 
 export const backendConfig = {

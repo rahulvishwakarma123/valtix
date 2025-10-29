@@ -142,8 +142,8 @@ const LoginPage = () => {
         style={{ "--bg-image-url": `url(/bg.webp)` }}
       >
         <div className="w-full max-w-md bg-slate-800/40 backdrop-blur-lg border border-slate-700/50 rounded-2xl p-8 shadow-2xl text-center space-y-5">
-          <div className="flex justify-center mb-6">
-            <img src={MainContent.appLogo} alt="App Logo" className="h-12" />
+          <div className="flex justify-center mb-2">
+            <img src={MainContent.appLogo} alt="App Logo" className="h-24" /> 
           </div>
 
           <h1 className="text-3xl font-bold text-white mb-2">Welcome Back</h1>

@@ -1,7 +1,8 @@
 import React from "react";
 import bg from "../../assets/Landing/bg.png";
 import mobBg from "../../assets/Landing/mobBg.png";
-import appLogo from "../../assets/appLogo.png"
+// import appLogo from "../../assets/appLogo.png"
+import appLogo from "../../assets/3.png"
 import { FaTelegramPlane, FaYoutube } from "react-icons/fa";
 import { IoLogoFacebook } from "react-icons/io5";
 import { FaSquareXTwitter } from "react-icons/fa6";
@@ -34,7 +35,7 @@ const Footer1 = () => {
               </clipPath>
             </defs>
           </svg> */}
-          <img src={appLogo} className="md:h-28 w-1/3 lg:w-auto" alt="" />
+          <img src={appLogo} className="md:h-32 w-1/3 lg:w-32" alt="Footer logo" />
           <span className="text-sm leading-[25px] text-white/50 font-light max-w-[250px] font-monsterrat lg:text-[15px]">
             The world’s first 100% decentralized matrix platform
           </span>
@@ -107,7 +108,7 @@ const Footer1 = () => {
                 rel="noopener noreferrer"
                 className="text-sm text-white/50 custom-transition hover:text-white"
               >
-                Yumeko AI BUSD
+                Valtix BUSD
               </a>
               <a
                 href="#"
@@ -115,7 +116,7 @@ const Footer1 = () => {
                 rel="noopener noreferrer"
                 className="text-sm text-white/50 custom-transition hover:text-white"
               >
-                Yumeko AI ETH
+                Valtix ETH
               </a>
               <a
                 href="#"
@@ -123,7 +124,7 @@ const Footer1 = () => {
                 rel="noopener noreferrer"
                 className="text-sm text-white/50 custom-transition hover:text-white"
               >
-                Yumeko AI TRX
+                Valtix AI TRX
               </a>
               <a
                 href="#"
@@ -131,7 +132,7 @@ const Footer1 = () => {
                 rel="noopener noreferrer"
                 className="text-sm text-white/50 custom-transition hover:text-white"
               >
-                Yumeko AI TON
+                Valtix AI TON
               </a>
             </div>
           </div>

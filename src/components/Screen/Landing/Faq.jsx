@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 
 const faqData = [
   {
-    question: "Why is yumeko the best alternative to trading?",
+    question: "Why is Valtix the best alternative to trading?",
     answer: [
       "The cryptocurrency rate has no effect on the sustainability of the rewards.",
       "The minimum entry threshold is equal to just a couple of cups of coffee.",
@@ -13,15 +13,15 @@ const faqData = [
     ],
   },
   {
-    question: "How does the yumeko platform work?",
+    question: "How does the Valtix platform work?",
     answer: [
-      "yumeko is built on smart contract technology, ensuring full automation and transparency.",
+      "Valtix is built on smart contract technology, ensuring full automation and transparency.",
       "Users participate in a decentralized matrix system that redistributes rewards based on smart contract logic.",
       "There are no intermediaries – the system runs on blockchain, and all funds are transferred directly between participants.",
     ],
   },
   {
-    question: "What are the benefits of using yumeko?",
+    question: "What are the benefits of using Valtix?",
     answer: [
       "Full decentralization means no single entity controls your assets.",
       "Instant payouts are made directly to your crypto wallet.",
@@ -30,18 +30,18 @@ const faqData = [
     ],
   },
   {
-    question: "How to start using yumeko?",
+    question: "How to start using Valtix?",
     answer: [
       "Install a crypto wallet like MetaMask or Trust Wallet.",
       "Fund your wallet with the required amount of cryptocurrency (usually BNB or ETH).",
-      "Use your wallet to connect to the yumeko platform and register.",
+      "Use your wallet to connect to the Valtix platform and register.",
       "Once registered, you can begin activating slots and building your team.",
     ],
   },
   {
-    question: "Is yumeko safe to use?",
+    question: "Is Valtix safe to use?",
     answer: [
-      "Yes, yumeko operates on open-source smart contracts that are permanently stored on the blockchain.",
+      "Yes, Valtix operates on open-source smart contracts that are permanently stored on the blockchain.",
       "There are no admins or centralized authorities that can alter the rules or control your funds.",
       "Users are in full control of their interactions through their own wallets.",
     ],
@@ -76,7 +76,7 @@ const Faq = () => {
           Frequently asked Questions
         </h2>
         <p className="text-sm lg:text-lg text-white-500 font-light">
-          Quick answerss to help you make the most of yumeko
+          Quick answerss to help you make the most of Valtix
         </p>
       </div>
 

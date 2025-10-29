@@ -60,7 +60,7 @@ const HomeSecond = () => {
         <div className="flex flex-row items-center space-x-4 rounded-l-xl reusable-box px-2 py-2 md:w-fit w-full">
           <img src="https://yumekoai.world/assets/yumeko-logo-white-Cfdj20CD.png" alt="pox-logo" className="w-9 h-9" />
           <div>
-            <p className="font-semibold text-xl">YUMEKO-AI</p>
+            <p className="font-semibold text-xl">VALTIX</p>
             <p className="font-medium text-base">$0.060397</p>
           </div>
         </div>
