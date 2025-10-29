@@ -23,7 +23,7 @@ const School = () => {
   ];
 
   return (
-    <section className="relative py-20 lg:py-32 overflow-hidden">
+    <section className="relative py-20 lg:py-32 overflow-hidden max-sm:px-4">
       <style>
         {`
           @keyframes float-slow {
@@ -179,7 +179,7 @@ const School = () => {
           </h1>
 
           {/* Description */}
-          <p className="text-lg lg:text-xl text-gray-300 text-center max-w-3xl mb-10 animate-slide-up" style={{ animationDelay: '0.2s' }}>
+          <p className="text-lg lg:text-xl text-gray-300 text-center max-w-3xl mb-10 animate-slide-up max-sm:text-justify" style={{ animationDelay: '0.2s' }}>
             Transform your journey with expert-led courses, proven strategies, and a community of successful partners ready to help you succeed.
           </p>
 

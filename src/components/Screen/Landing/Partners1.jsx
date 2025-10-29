@@ -93,7 +93,7 @@ const Partners1 = () => {
   };
 
   return (
-    <section className="relative py-20 overflow-hidden" id="about">
+    <section className="relative py-20 overflow-hidden max-sm:px-4" id="about">
       <style>
         {`
           @keyframes float-stats {
@@ -195,7 +195,7 @@ const Partners1 = () => {
           </h2>
 
           {/* Subtitle */}
-          <p className="text-lg lg:text-xl text-gray-300 max-w-2xl">
+          <p className="text-lg lg:text-xl text-gray-300 max-w-2xl max-sm:text-justify">
             All data is stored in the blockchain and can be publicly verified. 
             <span className="text-blue-400 font-semibold"> 100% transparent</span> and 
             <span className="text-cyan-400 font-semibold"> immutable</span>.

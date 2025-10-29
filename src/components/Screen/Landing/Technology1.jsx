@@ -156,7 +156,7 @@ const Technology1 = () => {
         </h2>
 
         {/* Description */}
-        <p className="text-lg lg:text-xl text-gray-300 max-w-3xl leading-relaxed">
+        <p className="text-lg lg:text-xl text-gray-300 max-w-3xl leading-relaxed max-sm:text-justify">
           Decentralized marketing powered by revolutionary blockchain technology. 
           Our open-source smart contract code ensures <span className="text-blue-400 font-semibold">safety</span> and 
           <span className="text-blue-400 font-semibold"> long-term performance</span>.

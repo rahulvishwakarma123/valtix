@@ -8,7 +8,7 @@ const AIPotentialSection = () => {
             Where <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">Artificial Intelligence</span><br />
             Meets Human Potential
           </h2>
-          <p className="text-xl text-gray-300 max-w-4xl mx-auto">
+          <p className="text-xl text-gray-300 max-w-4xl mx-auto max-sm:text-justify">
             Decentralized non-playing platform based on smart contracts that unites people from around the world 
             and opens the boundless possibilities of the new economic financial system
           </p>
