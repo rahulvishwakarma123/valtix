@@ -1,7 +1,7 @@
 const AnalyticsAISection = () => {
   return (
-    <div className="py-20 text-white">
-      <div className="container mx-auto px-6">
+    <div className="py-20 text-white bg-gradient-to-b from-gray-950 to-black">
+      <div className="container mx-auto px-6 ">
         
         {/* Hero Section */}
         <div className="text-center mb-20">

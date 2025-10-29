@@ -57,7 +57,7 @@ const BlockchainAISection = () => {
   return (
     <motion.div 
       ref={sectionRef}
-      className="relative py-20 text-white bg-gradient-to-b from-black-900 to-gray-950 min-h-screen"
+      className="relative py-20 text-white bg-gradient-to-b from-gray-900 to-black min-h-screen"
       style={{ 
         zIndex: 20, // Higher than hero's zIndex: 5
         position: "relative"
