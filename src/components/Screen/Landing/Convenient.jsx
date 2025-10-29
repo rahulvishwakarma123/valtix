@@ -1,5 +1,5 @@
 import React from 'react';
-import x3 from '../../../assets/Landing/dashboard.jpg'
+import x3 from '../../../assets/Landing/dashboard2.png'
 
 const Convenient = () => {
   return (

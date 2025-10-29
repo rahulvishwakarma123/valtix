@@ -6,6 +6,9 @@ import Convenient from "../../components/Screen/Landing/Convenient";
 import Partners1 from "../../components/Screen/Landing/Partners1";
 import Technology1 from "../../components/Screen/Landing/Technology1";
 import Faq1 from "../../components/Screen/Landing/Faq1";
+import AIPotentialSection from "../../components/Screen/Landing/AIPotentialSection";
+import BlockchainAISection from "../../components/Screen/Landing/BlockchainAISection";
+import AnalyticsAISection from "../../components/Screen/Landing/AnalyticsAISection";
 
 const LandingPage = () => {
   return (
@@ -15,11 +18,14 @@ const LandingPage = () => {
         <div className="pt-20 lg:pt-[60px]">
           <Hero />
           <div className="px-4 lg:px-0">
+            <BlockchainAISection/>
+            <AnalyticsAISection/>
             <DocSlideFinal />
-            {/* <School /> */}
+            <School />
             <Partners1 />
             <Technology1 />
             <Convenient />
+            <AIPotentialSection/>
             <Faq1 />
           </div>
         </div>
