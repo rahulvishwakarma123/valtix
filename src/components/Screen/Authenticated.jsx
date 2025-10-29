@@ -66,8 +66,8 @@ import ChangePassword from "../../screens/AdminPanel/ChangePassword";
 import UserRankRewardHistory from "../../screens/UserPanel/UserRankRewardHistory";
 
 const Authenticated = () => {
-  const role = useSelector((state) => state?.isLoggedUser?.role);
-  // const role = "ADMIN";
+  // const role = useSelector((state) => state?.isLoggedUser?.role);
+  const role = "USER";
   return (
     <>
       {role === "USER" ? (

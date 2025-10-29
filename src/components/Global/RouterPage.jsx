@@ -25,8 +25,8 @@ const RouterPage = () => {
   useEffect(() => {
     dispatch(loadUserFromStorage());
   }, [dispatch]);
-  const loggedUser = useSelector((state) => state?.isLoggedUser?.isLoggedIn);
-  // const loggedUser = true
+  // const loggedUser = useSelector((state) => state?.isLoggedUser?.isLoggedIn);
+  const loggedUser = true
 
   return <Router>{loggedUser ? <Authenticated /> : <Auth />}</Router>;
 };
