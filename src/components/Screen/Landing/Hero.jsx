@@ -109,7 +109,7 @@ const Hero = () => {
 
       {/* Hero Section - Blue & Black Theme */}
       <div 
-        className="relative min-h-screen bg-gradient-to-br from-black via-blue-900/30 to-black overflow-hidden"
+        className="relative max-sm:py-5 min-h-screen bg-gradient-to-br from-black via-blue-900/30 to-black overflow-hidden"
         onMouseEnter={() => setIsHovering(false)}
       >
         
@@ -225,7 +225,7 @@ const Hero = () => {
 
             {/* Animated Stats - Blue Theme */}
             <motion.div 
-              className="grid grid-cols-3 gap-8 max-w-2xl mx-auto"
+              className="grid grid-cols-3 gap-8 max-w-2xl mx-auto max-sm:grid-cols-1"
               variants={containerVariants}
             >
               {[
@@ -235,7 +235,7 @@ const Hero = () => {
               ].map((stat, index) => (
                 <motion.div 
                   key={index} 
-                  className="text-center"
+                  className="text-center max-sm:flex max-sm:flex-col"
                   variants={itemVariants}
                   onMouseEnter={() => setIsHovering(true)}
                   onMouseLeave={() => setIsHovering(false)}
@@ -304,19 +304,7 @@ const Hero = () => {
           </motion.div>
         </div>
 
-        {/* Scroll Indicator */}
-        <motion.div 
-          className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center gap-3"
-          animate={{ y: [0, 10, 0] }}
-          transition={{ duration: 2, repeat: Infinity }}
-        >
-          <span className="text-blue-300 text-sm tracking-widest uppercase">
-            SCROLL TO EXPLORE
-          </span>
-          <div className="w-px h-16 bg-gradient-to-b from-blue-500 to-transparent">
-            <div className="w-full h-4 bg-blue-400 rounded-full" />
-          </div>
-        </motion.div>
+        
       </div>
     </>
   );
